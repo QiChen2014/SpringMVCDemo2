@@ -1,0 +1,2 @@
+# SpringMVCDemo2
+使用SpringMVC和MyBatis开发项目，并且使用Mybatis插件自动生成代码
