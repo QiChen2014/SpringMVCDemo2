@@ -15,10 +15,17 @@ public class HelloController {
 		return "hi";
 	}
 
+	/**
+	 * 接受参数
+	 * @param model
+	 * @param name
+	 * @return
+	 */
 	@RequestMapping(value = "/test1",method = RequestMethod.GET)
 	public String test1(Model model,String name) {
 		System.out.println(name);
 		model.addAttribute("message", name);
 		return "hello";
 	}
+
 }
